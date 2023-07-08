@@ -1,0 +1,42 @@
+.Typography.stage {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #0A4D68;
+    font-weight: bold;
+}
+
+.Typography.card-title {
+    font-size: 30px;
+    color: #1C315E;
+}
+
+.Typography.card-description {
+    color: #7d939c;
+}
+
+.Card.task-card {
+    box-shadow: 0 10px 30px #7d939c49;
+    margin-bottom: 24px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.Card.task-card.completed {
+    background: #9db2bf6a;
+    cursor: not-allowed;
+    box-shadow: 0;
+}
+
+.teams {
+    padding-left: 10px;
+}
+
+@media (max-width: 890px) {
+    .Typography.stage {
+        text-align: start;
+    }
+}

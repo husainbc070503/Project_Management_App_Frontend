@@ -1,0 +1,52 @@
+.Typography.heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.add-icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #00DFA2;
+    cursor: pointer;
+    color: #fff;
+}
+
+.pro-box {
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.Typography.singleProTitle {
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.icons {
+    display: flex;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+}
+
+.eye-icon {
+    margin-top: -10px;
+}
+
+.date-title {
+    font-weight: bold;
+    color: #3C486B;
+}
+
+.desc-teams {
+    margin-top: 16px;
+}
+
+.Typography.team {
+    font-size: 18px;
+}

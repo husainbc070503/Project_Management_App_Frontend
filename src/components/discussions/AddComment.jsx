@@ -60,6 +60,7 @@ const AddComment = ({ project, team }) => {
 
         dispatch({ type: "ADD_COMMENT", payload: data.cmt });
         setOpen(false);
+        setComment("");
       } else {
         toast.error(data.message, {
           position: "top-right",

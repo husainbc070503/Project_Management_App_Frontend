@@ -12,7 +12,7 @@ import ProjectDesc from "./ProjectDesc";
 import Discussions from "../discussions/Discussions";
 
 const Projects = () => {
-  const { projects, singleProject, user } = useGlobalUserContext();
+  const { projects, singleProject } = useGlobalUserContext();
   const { title, _id, team, isTeamProject } = singleProject;
 
   return (

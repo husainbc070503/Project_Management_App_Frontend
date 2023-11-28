@@ -46,7 +46,7 @@ const AuthForm = () => {
 
     if (file === undefined) {
       setLoading(false);
-      return toast.error("Please upload ypur profile pic.", {
+      return toast.error("Please upload your profile pic.", {
         position: "top-right",
         autoClose: 2000,
         hideProgressBar: false,
